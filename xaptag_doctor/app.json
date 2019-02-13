@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "xaptag_doctor",
+    "description": "This project is really great.",
+    "slug": "xaptag_doctor",
+    "privacy": "public",
+    "sdkVersion": "29.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/app_icon.png",
+    // "androidStatusBar": {
+    //   "backgroundColor": "#B71C1C",
+    //   "barStyle": "light-content"
+    // },
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "backgroundColor": "#ffffff",
+      "resizeMode": "cover"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.xaptag.xaptag_doctor"
+    }
+  }
+}
